@@ -1,0 +1,350 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{22DFA4ED-A438-4AD1-94A0-896AD16B3694}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>BeautySalonManagementSystem</RootNamespace>
+    <AssemblyName>BeautySalonManagementSystem</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Controller\AppController.cs" />
+    <Compile Include="Controller\AppCusController.cs" />
+    <Compile Include="Controller\BillingController.cs" />
+    <Compile Include="Controller\CategoryController.cs" />
+    <Compile Include="Controller\AdminController.cs" />
+    <Compile Include="Controller\ChangePasswordController.cs" />
+    <Compile Include="Controller\CusUpdateCon.cs" />
+    <Compile Include="Controller\LoadController.cs" />
+    <Compile Include="Controller\ServiceCon.cs" />
+    <Compile Include="Controller\ProController.cs" />
+    <Compile Include="Controller\UserDashBoardCon.cs" />
+    <Compile Include="Controller\PaymentCon.cs" />
+    <Compile Include="Controller\ProductController.cs" />
+    <Compile Include="Controller\PasswordResetController.cs" />
+    <Compile Include="Controller\ForgotPasswordController.cs" />
+    <Compile Include="Controller\DashBoardController.cs" />
+    <Compile Include="Controller\CusServiceController.cs" />
+    <Compile Include="Controller\CusProductController.cs" />
+    <Compile Include="Controller\CusCategoryController.cs" />
+    <Compile Include="Controller\ManageController.cs" />
+    <Compile Include="Controller\SignUpController.cs" />
+    <Compile Include="Controller\UserController.cs" />
+    <Compile Include="Controller\StaffController.cs" />
+    <Compile Include="Controller\CustomerController.cs" />
+    <Compile Include="Controller\LoginController.cs" />
+    <Compile Include="Model\AppUser.cs" />
+    <Compile Include="Model\AppCusModel.cs" />
+    <Compile Include="Model\BillingModel.cs" />
+    <Compile Include="Model\CategoryModel.cs" />
+    <Compile Include="Model\AdminModel.cs" />
+    <Compile Include="Model\ChangePasswordModel.cs" />
+    <Compile Include="Model\CusUpdate.cs" />
+    <Compile Include="Model\LoadModel.cs" />
+    <Compile Include="Model\ServiceMod.cs" />
+    <Compile Include="Model\ProModel.cs" />
+    <Compile Include="Model\UserDashBoardMod.cs" />
+    <Compile Include="Model\PaymentMod.cs" />
+    <Compile Include="Model\ProductModel.cs" />
+    <Compile Include="Model\PasswordResetModel.cs" />
+    <Compile Include="Model\ForgotPasswordModel.cs" />
+    <Compile Include="Model\DashBoardModel.cs" />
+    <Compile Include="Model\CusServiceModel.cs" />
+    <Compile Include="Model\CusProductModel.cs" />
+    <Compile Include="Model\CusCategoryModel.cs" />
+    <Compile Include="Model\ManageUser.cs" />
+    <Compile Include="Model\SignUpUser.cs" />
+    <Compile Include="Model\UserModel.cs" />
+    <Compile Include="Model\StaffModel.cs" />
+    <Compile Include="Model\CustomerModel.cs" />
+    <Compile Include="Model\LoginModel.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="View\Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\CustomerForm2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\CustomerForm2.Designer.cs">
+      <DependentUpon>CustomerForm2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\Form2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\Form2.Designer.cs">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\Form3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\Form3.Designer.cs">
+      <DependentUpon>Form3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\Form4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\Form4.Designer.cs">
+      <DependentUpon>Form4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\Form5.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\Form5.Designer.cs">
+      <DependentUpon>Form5.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\Form6.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\Form6.Designer.cs">
+      <DependentUpon>Form6.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\ForgotPassword.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\ForgotPassword.Designer.cs">
+      <DependentUpon>ForgotPassword.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\DashBoard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\DashBoard.Designer.cs">
+      <DependentUpon>DashBoard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\CusService.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\CusService.Designer.cs">
+      <DependentUpon>CusService.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\CusProduct.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\CusProduct.Designer.cs">
+      <DependentUpon>CusProduct.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\CusCategory.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\CusCategory.Designer.cs">
+      <DependentUpon>CusCategory.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\Category.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\Category.Designer.cs">
+      <DependentUpon>Category.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\Billing.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\Billing.Designer.cs">
+      <DependentUpon>Billing.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\AppointmentCustomer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\AppointmentCustomer.Designer.cs">
+      <DependentUpon>AppointmentCustomer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\Appointment.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\Appointment.Designer.cs">
+      <DependentUpon>Appointment.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\Form8.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\Form8.Designer.cs">
+      <DependentUpon>Form8.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\Load.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\Load.Designer.cs">
+      <DependentUpon>Load.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\Profile.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\Profile.Designer.cs">
+      <DependentUpon>Profile.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\Product.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\Product.Designer.cs">
+      <DependentUpon>Product.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\UserDashBoard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\UserDashBoard.Designer.cs">
+      <DependentUpon>UserDashBoard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\Service.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\Service.Designer.cs">
+      <DependentUpon>Service.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\Payment.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\Payment.Designer.cs">
+      <DependentUpon>Payment.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\ResetPassword.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\ResetPassword.Designer.cs">
+      <DependentUpon>ResetPassword.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\SignUp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\SignUp.Designer.cs">
+      <DependentUpon>SignUp.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="View\Appointment.resx">
+      <DependentUpon>Appointment.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\AppointmentCustomer.resx">
+      <DependentUpon>AppointmentCustomer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\Billing.resx">
+      <DependentUpon>Billing.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\Category.resx">
+      <DependentUpon>Category.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\CusCategory.resx">
+      <DependentUpon>CusCategory.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\CusProduct.resx">
+      <DependentUpon>CusProduct.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\CusService.resx">
+      <DependentUpon>CusService.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\DashBoard.resx">
+      <DependentUpon>DashBoard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\CustomerForm2.resx">
+      <DependentUpon>CustomerForm2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\Form2.resx">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\Form3.resx">
+      <DependentUpon>Form3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\Form4.resx">
+      <DependentUpon>Form4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\Form5.resx">
+      <DependentUpon>Form5.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\Form6.resx">
+      <DependentUpon>Form6.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\ForgotPassword.resx">
+      <DependentUpon>ForgotPassword.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\Form8.resx">
+      <DependentUpon>Form8.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\Load.resx">
+      <DependentUpon>Load.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\Profile.resx">
+      <DependentUpon>Profile.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\Product.resx">
+      <DependentUpon>Product.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\Payment.resx">
+      <DependentUpon>Payment.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\ResetPassword.resx">
+      <DependentUpon>ResetPassword.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\Service.resx">
+      <DependentUpon>Service.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\SignUp.resx">
+      <DependentUpon>SignUp.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\UserDashBoard.resx">
+      <DependentUpon>UserDashBoard.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
