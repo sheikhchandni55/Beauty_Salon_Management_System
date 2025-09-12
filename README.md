@@ -110,7 +110,7 @@ The system provides a **user-friendly interface** that ensures smooth communicat
 
 *(See More `/Project` folder for details)*  
 
-## 👨‍🏫 Supervisor
+## 👨‍🏫 Administrator
 **Dr. Md. Iftekharul Mobin**  
 Department of Computer Science, AIUB
 
