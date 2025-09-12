@@ -9,7 +9,7 @@
 ![Database](https://img.shields.io/badge/Database-SQL%20Server-orange.svg)  
 ![IDE](https://img.shields.io/badge/IDE-Visual%20Studio-purple.svg)  
 
----
+
 
 ## 📌 Overview  
 The **Beauty Salon Management System** is a desktop-based application developed in **C#** with **SQL Server** as the backend.  
@@ -22,7 +22,7 @@ It helps salon owners, staff, and customers manage day-to-day operations such as
 
 The system provides a **user-friendly interface** that ensures smooth communication between customers, staff, and admins.  
 
----
+
 
 ## 🎯 Objectives  
 - Allow customers to **book appointments online**.  
@@ -31,7 +31,7 @@ The system provides a **user-friendly interface** that ensures smooth communicat
 - Securely store all user data and ensure role-based access.  
 - Generate **accurate billing and reporting** for better business insights.  
 
----
+
 
 ## 👥 User Roles  
 
@@ -54,7 +54,7 @@ The system provides a **user-friendly interface** that ensures smooth communicat
 - Make payments (cash, card, or mobile wallets)  
 - Submit feedback and ratings  
 
----
+
 
 ## ✨ Features  
 
@@ -67,7 +67,7 @@ The system provides a **user-friendly interface** that ensures smooth communicat
 ✅ **Dashboard** – Admin and staff dashboards with reports & stats  
 ✅ **Feedback & Rating** – Customers provide reviews (1–5 stars)  
 
----
+
 
 
 ## 🛠 Tools & Technologies  
@@ -77,7 +77,7 @@ The system provides a **user-friendly interface** that ensures smooth communicat
 - **Design Approach:** Object-Oriented Programming (OOP)  
   - Encapsulation, Inheritance, Abstraction, Polymorphism  
 
----
+
 
 ## 🏗 System Workflow  
 1. Users (Admin, Staff, Customer) log in via the same portal.  
@@ -86,7 +86,7 @@ The system provides a **user-friendly interface** that ensures smooth communicat
 4. Billing is auto-calculated, and customers pay via multiple methods.  
 5. Admin can manage multiple salon branches and track reviews/ratings.  
 
----
+
 
 ## 🗂️ Database Design  
 
@@ -94,7 +94,7 @@ The system provides a **user-friendly interface** that ensures smooth communicat
 - **Normalization:** Up to 3NF (No transitive dependencies)  
 - **ER Diagram, Sequence Diagram, Activity Diagram & SQL Queries:** Included in report  
 
----
+
 
 
 ## 📸 Screenshots  
@@ -114,7 +114,7 @@ The system provides a **user-friendly interface** that ensures smooth communicat
 **Dr. Md. Iftekharul Mobin**  
 Department of Computer Science, AIUB
 
----
+
 
 ## 👨‍💻 Authors
 - **Sheikh Tahmina Moshtari Chandni** – ID: 23-51027-1  
